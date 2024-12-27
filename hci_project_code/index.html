@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JU Rate</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  .logo1 {
+    align-items: center;
+    width: 90px;
+}</style>
+</head>
+<body>
+  <!-- Login Page -->
+  <div class="login-page">
+    <h1>Welcome to JURate</h1>
+    <img src="images/unilogo.png" alt="University Logo" class="logo1">
+    <form class="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+    <a href="dashboard.html" class="login-button">Login</a>
+
+    </form>
+    <div class="footer-images">
+      <img src="images/clock tower.jpg" alt="Clock Tower">
+      <img src="images/University Entrance.jpg" alt="University Entrance">
+    </div>
+  </div>
+
+ 
+  <!-- Rating Page -->
+  <div class="rating-page" hidden>
+    <header>
+      <div class="user-info">
+        <img src="user.png" alt="User Avatar">
+        <div>
+          <h2 id="user-name">Hamdi Hmada</h2>
+          <p>IT Student</p>
+        </div>
+      </div>
+      <img src="logo.png" alt="University Logo" class="logo">
+    </header>
+    <h2>Rating: JU Exams Website</h2>
+    <div class="rating-categories">
+      <div class="category">
+        <span>Website Design</span>
+        <div class="stars">
+          ★★★★☆
+        </div>
+      </div>
+      <div class="category">
+        <span>Usability</span>
+        <div class="stars">
+          ★★★☆☆
+        </div>
+      </div>
+      <!-- Add more categories as needed -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
